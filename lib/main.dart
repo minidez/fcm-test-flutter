@@ -70,7 +70,7 @@ class FcmTestState extends State<FcmTest> {
       'to': _fcmToken,
       'data': message
     };
-    final String jsonString = JSON.encode(jsonMap);
+    final String jsonString = json.encode(jsonMap);
 
     final http.Response response = await http.post(
         Uri.encodeFull("http://fcm.googleapis.com/fcm/send"),

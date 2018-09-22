@@ -12,7 +12,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  firebase_messaging: 0.1.0
+  firebase_messaging: 2.0.0
 
 
 # For information on the generic Dart part of this file, see the
